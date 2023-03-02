@@ -1,16 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Media</title>
-    <script src="script.js"></script>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="media-query.css">
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Media</title>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="media-query.css" />
+    </head>
+    <body>
+        <main>
+            <h1>Media de nota do aluno</h1>
+            <input
+                class="input"
+                type="number"
+                name="nota1"
+                id="nota1"
+                placeholder="Nota de 1 a 10"
+            />
+            <br />
+            <input
+                class="input"
+                type="number"
+                name="nota2"
+                id="nota2"
+                placeholder="Nota de 1 a 10"
+            />
 
-</head>
-<body>
-    <h1>Media de nota do aluno</h1>
-</body>
+            <button onclick="calcular()">
+                <span class="shadow"></span>
+                <span class="edge"></span>
+                <span class="front text"> calcular </span>
+            </button>
+            <div id="resultado">resultado</div>
+        </main>
+    </body>
 </html>
