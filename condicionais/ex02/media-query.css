@@ -8,4 +8,7 @@
     h1 {
         padding: 60px;
     }
+    button {
+        margin-top: 3em;
+    }
 }
