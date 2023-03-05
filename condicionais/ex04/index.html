@@ -4,26 +4,41 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>modificando variaveis entre si</title>
+        <title>maior numero</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="media-query.css" />
         <script src="script.js"></script>
+        <script src="script2.js"></script>
     </head>
     <body>
-        <h1>invertendo variaveis</h1>
-        <input
-            type="number"
-            name="numero1"
-            id="numero1"
-            placeholder="insira um caractere"
-        />
-        <br />
-        <input
-            type="number"
-            name="numero2"
-            id="numero2"
-            placeholder="insira um caractere"
-        />
-        <br />
-        <button onclick="verificar()">verificar</button>
-        <p>resultado</p>
+        <main>
+            <h1>maior numero inteiro</h1>
+            <input
+                type="number"
+                name="numero1"
+                id="numero1"
+                placeholder="Primeiro numero"
+            />
+            <br />
+            <input
+                type="number"
+                name="numero2"
+                id="numero2"
+                placeholder="Segundo numero"
+            />
+            <br />
+            <input
+                type="number"
+                name="numero3"
+                id="numero3"
+                placeholder="terceiro numero"
+            />
+            <br />
+            <button onclick="verificar()">maior</button>
+
+            <button onclick="verificar2()">menor</button>
+            <p>aqui sai a resposta</p>
+            <div>aqui sai a outra resposta</div>
+        </main>
     </body>
 </html>
