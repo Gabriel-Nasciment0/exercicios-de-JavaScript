@@ -4,11 +4,27 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
+        <title>Aumento</title>
         <link rel="stylesheet" href="style.css" />
-        <script src="cript.js"></script>
+        <script src="script.js"></script>
     </head>
     <body>
-        <h1>Aumento dos assalariados</h1>
+        <main>
+            <section>
+                <h1>Aumento dos assalariados</h1>
+                <label for="salario">Digite seu salario:</label>
+                <input type="number" name="salario" id="salario" />
+                <button onclick="calculo()">calcule</button>
+            </section>
+
+            <section>
+                <p id="resultado">
+                    20% para salarios abaixo de R$ 280,00 <br />
+                    15% para salarios acime de R$ 280,00 <br />
+                    10% para salarios acima de R$ 700,00 <br />
+                    5% para salarios acima de R$ 1500,00 <br />
+                </p>
+            </section>
+        </main>
     </body>
 </html>
