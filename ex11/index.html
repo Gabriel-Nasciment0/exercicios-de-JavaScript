@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>conceito</title>
+        <style>
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            #nota1 {
+                margin-left: 4px;
+                width: 170px;
+            }
+            #nota2 {
+                width: 170px;
+            }
+        </style>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <main>
+            <h1>mostrando o conseito do aluno</h1>
+            <section>
+                <label for="nota1">Primeira Nota:</label>
+                <input
+                    type="number"
+                    name="nota1"
+                    id="nota1"
+                    step="0.5"
+                    min="0"
+                    max="10"
+                    placeholder="0 a 10"
+                />
+            </section>
+            <section>
+                <label for="nota2">Segunda Nota:</label>
+                <input
+                    type="number"
+                    name="nota2"
+                    id="nota2"
+                    step="0.5"
+                    min="0"
+                    max="10"
+                    placeholder="0 a 10"
+                />
+            </section>
+            <section>
+                <button onclick="calcular()">Calcular</button>
+            </section>
+            <p id="resposta">resposta</p>
+        </main>
+    </body>
+</html>
+<!--  
+    Faça um script que lê as duas notas parciais obtidas por um aluno numa disciplina ao longo de um semestre, e calcule a sua média. A atribuição de conceitos obedece à tabela abaixo:
+
+      Média de Aproveitamento  Conceito
+      Entre 9.0 e 10.0                      A
+      Entre 7.5 e 9.0                       B
+      Entre 6.0 e 7.5                       C
+      Entre 4.0 e 6.0                       D
+      Entre 4.0 e zero                      E
+    O algoritmo deve mostrar numa janela de alert as notas, a média, o conceito correspondente e a mensagem “APROVADO” se o conceito for A, B ou C ou “REPROVADO” se o conceito for D ou E. 
+-->

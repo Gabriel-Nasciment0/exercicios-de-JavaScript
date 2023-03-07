@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Numero da semana</title>
+        <script src="script.js"></script>
+        <style>
+            input{
+                width: 140px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>mostrando o dia da semana atraves do Numero</h1>
+        <input
+            type="number"
+            name="dia"
+            id="dia"
+            placeholder="numero de 1 a 7"
+            min="1"
+            max="7"
+            
+        />
+        <button onclick="verificar()">verificar</button>
+        <p id="resposta">resposta</p>
+    </body>
+</html>
+<!--  Faça um script que leia um número e exiba o dia correspondente da semana. (1-Domingo, 2- Segunda, etc.), se digitar outro valor deve aparecer valor inválido. -->
