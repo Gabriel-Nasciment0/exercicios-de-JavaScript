@@ -17,7 +17,7 @@ while (salario <= 0) {
     alert("[ERRO] insira um salario maior que 0");
     salario = prompt("informe seu salario");
 }
-while (sexo != "masculino" || sexo != "feminino") {
-    alert('[ERRO] insira o sexo masculino ou feminino')
+while (sexo.toUpperCase() != "MASCULINO" || sexo.toUpperCase() != "FEMININO") {
+    alert("[ERRO] insira o sexo masculino ou feminino");
     sexo = prompt("informe seu sexo: masculino ou feminino");
 }
